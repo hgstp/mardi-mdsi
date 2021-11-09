@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>MDSI 1st General Assembly   .small[MaRDI - Mathematical Research Data Initiative]  </title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Stephan Haug   " />
+    <meta name="date" content="2021-11-11" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link rel="stylesheet" href="tum.css" type="text/css" />
+    <link rel="stylesheet" href="tum-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# MDSI 1st General Assembly <br> .small[MaRDI - Mathematical Research Data Initiative] <br>
+### Stephan Haug<br> <br>
+### November 11, 2021
+
+---
+
+
+
+
+
+layout: true
+
+background-image: url(figures/TUM_Logo.png)
+background-position: 96.7% 4.3%
+background-size: 7%
+
+
+
+---
+
+background-image: url("figures/i_love_math_mardi.png")
+background-position: center
+background-size: 100%
+
+
+
+---
+
+
+
+
+### .tg[Ma]thematical .tg[R]esearch .tg[D]ata .tg[I]nitiative
+
+.pull-left-40[.tb[MaRDI’s Mission:] 
+.small[
+1. develop a robust __Mathematical Research Data Infrastructure__, being useful within mathematics and other disciplines as well as non-scientific fields
+
+2. set __standards__ and __confirmable workflows__ for certified Mathematical Research Data 
+
+3. provide __services__ to both the mathematical and wider scientific community
+]
+
+]
+
+.pull-right-60[
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="figures/MaRDI_Mission.png" width="100%" style="display: block; margin: auto 0 auto auto;" /&gt;
+.right[.small[
+.grey[@ MaRDI4nfdi]
+
+
+]]]
+
+.tb[MaRDI’s Vision:] Building a community that embraces a .tg[FAIR data] culture and research workflow through the sustainable realization of MaRDI findings.
+
+
+---
+
+background-image: url("figures/MaRDI_Overview.png")
+background-position: center
+background-size: 100%
+class: mardi, bottom
+
+
+.right[.small[@ MaRDI4nfdi]]
+
+---
+
+### TA3 ❤️ Math and Fair Data
+
+
+&lt;br&gt;
+
+.pull-left[
+
+&lt;img src="figures/TUM_Logo.png" width="44%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+&lt;br&gt;
+
+__Prof. Mathias Drton__    
+.small[Chair of Mathematical Statistics    
+MaRDI Co-Spokesperson     
+Core Member of MDSI    
+ELLIS Munich Faculty]
+
+__Dr. Stephan Haug__    
+.small[
+TUM|Stat Consulting Center
+]
+...
+
+
+]
+
+.pull-right[
+
+&lt;img src="figures/lmu_logo.png" width="50%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+&lt;br&gt;
+
+__Prof. Bernd Bischl__    
+.small[
+Chair of Statistical Learning &amp; Data Science    
+MaRDI Co-Spokesperson     
+Co-Director of MCML    
+ELLIS Munich Faculty]
+
+__Dr. Giuseppe Casalicchio__    
+.small[
+OpenML Core Team]
+
+...
+]
+
+
+---
+
+### Work program of TA3
+
+.tg[M3.1: Library of Curated Benchmark Datasets]    
+.small[__Aim:__ provide _task-specific_ libraries of curated benchmark datasets following FAIR principles ]
+
+
+.tg[M3.2: Library of Statistical Analyses]    
+.small[__Aim:__ provide exhaustive statistical analysis of the datasets from M3.1, which will be demos that connect the data to statistical methods] 
+
+.tg[M3.3: Empirical Analysis of Machine Learning Experiments]    
+.small[__Aim:__ provide (tools to analyze) results of benchmark experiments of the datasets from M3.1; summarize common pitfalls and list guideline to avoid those pitfalls]
+
+.tg[M3.4: Standards for Peer Review of Numerical Experimentation]     
+.small[__Aim:__ establish standards for peer-review of numerical experiments as well as the software code with which the experiments are conducted]
+
+
+.content-box-blue[
+M3.1 to M3.3 use, adapt OpenML, create a connection to the MaRDI portal and make all results extendable by the community
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -5,6 +5,13 @@
 # Session Data files
 .RData
 
+#pdf
+
+.pdf
+
+# powerpoint
+.pptx
+
 # User-specific files
 .Ruserdata
 
